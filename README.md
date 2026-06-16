@@ -94,4 +94,49 @@ Amber-pulsing parcels on the map are listed for sale. Click one → **BUY** → 
 buy(uint256 x, uint256 y) payable
 setName(uint256 x, uint256 y, string name)
 setColor(uint256 x, uint256 y, string color)
-listForSale(uint2
+listForSale(uint256 x, uint256 y, uint256 price)
+cancelListing(uint256 x, uint256 y)
+ownedCount(address owner) view
+```
+
+---
+
+## 🗺️ Map Controls
+
+| Control | Action |
+|---|---|
+| Click parcel | Inspect / claim / buy |
+| Drag | Pan the map |
+| Scroll wheel | Zoom in / out |
+| `+` / `−` buttons | Zoom control |
+| `CTR` button | Center map |
+| Brightness slider | Adjust map brightness |
+
+---
+
+## 🎨 Map Legend
+
+| Color | Meaning |
+|---|---|
+| Dark green `#0e1a10` | Empty, unclaimed parcel |
+| Bright green `#39ff14` | Your parcel |
+| Blue `hsl(210,65%,45%)` | Owned by another address |
+| Pulsing amber | Listed for sale |
+
+---
+
+## 🏛️ Built by Arc Architects
+
+Arc Land was developed under the **Arc Architects** program — Circle's official community builder initiative for dApps on Arc Network.
+
+Built by [@wentyom](https://x.com/wentyom) as part of the [ArcWorld](https://arcworld.io) ecosystem.
+
+---
+
+## 🔗 Links
+
+- 🌐 App: [land.arcworld.io](https://land.arcworld.io)
+- 🌍 ArcWorld Hub: [arcworld.io](https://arcworld.io)
+- 🔍 Explorer: [testnet.arcscan.app](https://testnet.arcscan.app)
+- 💧 Faucet: [faucet.circle.com](https://faucet.circle.com)
+- 🐦 Twitter: [@wentyom](https://x.com/wentyom)
